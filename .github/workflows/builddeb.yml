@@ -35,10 +35,10 @@ jobs:
           ref: main
           path: YouTubeHeader
 
-      - name: Checkout PoomSmart/YTVideoOverlay
+      - name: Checkout thaibm92/YTVideoOverlay
         uses: actions/checkout@main
         with:
-          repository: PoomSmart/YTVideoOverlay
+          repository: thaibm92/YTVideoOverlay
           ref: main
           path: YTVideoOverlay
 
